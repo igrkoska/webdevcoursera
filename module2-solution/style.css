@@ -6,10 +6,12 @@ h1 {
 	color:#1a0000;
 	margin-bottom: 15px;
 }
-p {
+.col-md-4 p {
 	font-family: serif;
 	border: 1px solid #000000;
 	background-color: #808080;
+	width:90%;
+	height: 150px;
 	margin-right: auto;
 	margin:left: auto;
 	color: #000000;
@@ -22,4 +24,15 @@ p {
 }
 .sushi {
 	background-color: #ffcc00;
+}
+.row {
+	width:100%;
+}
+@media (min-width: 992px) {
+	.col-md-4 {
+		float: left;
+	}
+	.col-md-4 {
+		width: 33%;
+	}
 }
