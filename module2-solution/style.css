@@ -8,9 +8,13 @@ h1 {
 }
 p {
 	font-family: serif;
+	border: 1px solid #000000;
+	background-color: #808080;
+	margin-right: auto;
+	margin:left: auto;
+	color: #000000;
 }
 .chicken {
-	width:30%;
 	background-color: #ff99ff;
 }
 .beef {
