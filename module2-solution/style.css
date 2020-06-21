@@ -16,13 +16,13 @@ h1 {
 	margin:left: auto;
 	color: #000000;
 }
-.chicken {
+.col-md-4 .chicken {
 	background-color: #ff99ff;
 }
-.beef {
+.col-md-4 .beef {
 	background-color: #cc0000;
 }
-.sushi {
+.col-md-4 .sushi {
 	background-color: #ffcc00;
 }
 .row {
